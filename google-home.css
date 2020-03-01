@@ -1,0 +1,219 @@
+
+body {
+    background-color: White;
+    margin:0px;
+    padding:0px;
+}
+
+.font1 {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.font2 {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(95,99,104);
+}
+
+.font3 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: rgba(0,0,0,0.54);
+    padding-left: 27px;
+}
+
+.font4 {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.54);
+    padding-left: 27px;
+}
+/* HEADER */
+
+.header {
+    display:grid;
+    grid-template-columns: 57px 54px 1475.4px 152.594px;
+    grid-template-areas: "h1 h2 hspace hd1";
+    height:48px;
+    width:100%;
+    align-items:center;
+    }
+
+.h1 {
+    padding-left: 23px;
+}
+
+.h2 {
+    padding-left: 23px;
+}
+
+.hspace {
+    width:100%;
+    height:40px;
+}
+
+.hd1{
+    width:166.594px;
+    height:48px;
+    padding: 0 30px;
+    display:grid;
+    grid-template-columns: 120.594px 16px 30px;
+    grid-template-areas: "hd2 hi1 hi2";
+    align-items: center;
+    justify-self:end;
+    
+
+}
+.hd2{
+    width: 91.591px;
+    height:48px;
+    padding-right:22px;
+    display: grid;
+    grid-template-columns: 33.95px 42.641px;
+    grid-template-areas: "hd3 hd4";
+    align-items: center;
+}
+
+.hd4{
+    width: 42.641px;
+    height:30px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.hi1 {
+    background: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png) no-repeat -139px -45px;
+    width: 16px;
+    height: 16px;
+
+}
+.hi2 {
+    height:30px;
+    width:30px;
+    padding-left: 22px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+/* LOGO */
+
+.ld1 {
+    width:100%;
+    height:233px;
+    margin-top: 41px;
+}
+
+.ld2 {
+   width:272px;
+   height:92px;
+    margin:auto;
+    padding-top: 109px;
+}
+
+/* SEARCHBAR */
+.searchbar {
+    width:560px;
+    height:39px;
+    border-radius: 50px;
+    padding: 5px 8px 0px 14px;
+    margin:auto;
+    border: solid;
+    border-width: 1px;
+    display:flex;
+    align-items: center;
+    }
+
+.magnifyGlassDiv {
+    height: 20px;
+    width:20px;
+    padding-right: 13px;
+    margin-bottom:5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.microphoneDiv {
+    padding: 0px 8px;
+    width:24px;
+    margin-bottom:3px;
+}
+
+.inputbox {
+    height:34px;
+    width:487px;
+    margin-bottom: 5px;
+    border:none;
+}
+
+/* BUTTONS */
+
+.buttonContainer {
+    width:571px;
+    height:70px;
+    padding-top: 18px;
+    margin: auto;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.searchButton {
+    width:125.406px;
+    height:34px;
+    margin: 11px 4px;
+    border-radius:4px;
+    background-color: rgb(242,242,242);
+    border-width: 0px;
+    
+}
+
+.luckyButton {
+    width:140.5px;
+    height:34px;
+    margin: 11px 4px;
+    border-radius:4px;
+    background-color: rgb(242,242,242);
+    border-width: 0px;
+}
+
+/* FOOTER */
+
+.footer1 {
+    position: fixed;
+    bottom: 41px;
+    width: 100%;
+    height:41px;
+    width:100%;
+    background-color: #f2f2f2;
+    border-top: 1px #e4e4e4 solid;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer2 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:41px;
+    width:100%;
+    background-color: #f2f2f2;
+    border-top: 1px #e4e4e4 solid;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footerEnd {
+    display:flex;
+    margin-left: auto;
+    padding-right: 27px;
+}
+
