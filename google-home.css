@@ -35,7 +35,7 @@ body {
 
 .header {
     display:grid;
-    grid-template-columns: 57px 54px 1475.4px 152.594px;
+    grid-template-columns: 57px 54px auto 166.594px;
     grid-template-areas: "h1 h2 hspace hd1";
     height:48px;
     width:100%;
@@ -56,7 +56,7 @@ body {
 }
 
 .hd1{
-    width:166.594px;
+    width:191.594px;
     height:48px;
     padding: 0 30px;
     display:grid;
